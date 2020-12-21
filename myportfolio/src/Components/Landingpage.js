@@ -4,7 +4,7 @@ import { Grid, Cell} from 'react-mdl';
 class Landing extends Component {
     render() {
         return(
-        <div style={{width: '100', margin: 'auto'}}>
+        <div style={{width: '100%', margin: 'auto'}}>
             <Grid className= "landing-grid">
                 <Cell col={12}>
                     <img src= 'https://image.shutterstock.com/image-vector/man-character-face-avatar-glasses-260nw-562077406.jpg'
@@ -13,20 +13,21 @@ class Landing extends Component {
                          />
 
                          <div className='banner-text'>
-                             <h1>Full Stack Web Developer</h1>
+                             <h1>Developer In Training
+                             </h1>
                         <hr/>
                         <p> Html/Css | Bootstrap | JavaScript | React | MongoDB</p>
-                         <div classNeame='social-links'>
+                         <div className='social-links'>
                              <a href='http://google.com' target='_blank'>
                              <i className='fa fa-github-square' aria-hidden='true'/>
                              </a>
 
                              <a href='http://google.com' target='_blank'>
-                             <i className='fa-facebook-square' aria-hidden='true'/>
+                             <i className='fa fa-facebook-square' aria-hidden='true'/>
                              </a>
 
                              <a href='http://google.com' target='_blank'>
-                             <i className='fa fa-instagram-square' aria-hidden='true'/>
+                             <i className="fa fa-instagram" aria-hidden="true"></i>
                              </a>
 
                          </div>

@@ -1,11 +1,23 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Contact extends Component {
-    render() {
+
+function Contact() {
         return(
-            <div><h1>Contact Page</h1></div>
+            <section className= 'landing-grid'>
+                <form className='contact'>
+                    <label for='name'>Name</label>
+                    <input type='text'></input><br></br>
+                    <label for='email'>Email-address</label>
+                    <input type='text'></input><br></br>
+                    <label for='message'>Message Here</label>
+                    <input type='text' id='title'></input><br></br>
+                    <input type='submit' value='Submit'></input>
+                </form>
+               
+
+               
+            </section>
         )
     }
-}
 
 export default Contact;

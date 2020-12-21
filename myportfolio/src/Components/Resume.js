@@ -1,11 +1,30 @@
-import React, { Component } from 'react';
+import React from 'react';
+// import LinkResume from '';
 
-class Resume extends Component {
-    render() {
+function Resume () {
         return(
-            <div><h1>Resume Page</h1></div>
+            <section className="landing-grid">
+            <article id="Resume">
+              <div className="content-title">
+                <h2>Resume</h2>
+              </div>
+              <div className="content-body">
+                <p>
+                  <h3>Front-End Skills</h3>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                  <li>jQuery</li>
+                  <li>Bootstrap</li>
+                </p>
+                <p>
+                  {/* click here for my resume <a href={ResumeLink} download="" target="_blank" rel="noopener noreferrer">resume</a>. */}
+               </p>
+              </div>
+            </article>
+          </section>
         )
     }
-}
+
 
 export default Resume;
