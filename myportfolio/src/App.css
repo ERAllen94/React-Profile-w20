@@ -1,46 +1,21 @@
 .header-color {
-  background: #659999;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #659999;  
+  background: -webkit-linear-gradient(to top, #f4791f, #659999);  
+background: linear-gradient(to top, #f4791f, #659999); 
 }
+
 
 .landing-grid {
 
-  background: #659999;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  text-align: center;
-  position: fixed;
+  background: #659999; 
+  background: -webkit-linear-gradient(to top, #f4791f, #659999); 
+  background: linear-gradient(to top, #f4791f, #659999);  text-align: center;  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-
 }
 
-.contact {
-  padding-top: 20em;
-}
-
-.work {
-  background: #659999;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  text-align: center;  
-  padding-top: 6em
-}
-
-form input {
-  font-size: 2em;
-}
-
-
-
-.landing-gridr {
-  background: #659999;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  text-align: center;
-
-}
 
 .avatar-img {
   height: 250px;
@@ -54,6 +29,7 @@ form input {
   margin: auto;
   border-radius: 10px;
 }
+
 
 .banner-text h1 {
   font-size: 66px;
@@ -73,10 +49,10 @@ form input {
 }
 
 .social-links {
- display: flex;
+  display: flex;
   justify-content: space-between;
   width: 50%;
-  margin: auto;
+ margin: auto;
 }
 
 .social-links i {
@@ -87,20 +63,26 @@ form input {
 
 
 /* projects page */
+.project {
+  background: #659999; 
+  background: -webkit-linear-gradient(to top, #f4791f, #659999); 
+  background: linear-gradient(to top, #f4791f, #659999);  text-align: center;  position: fixed;
+  height: 100%;
+}
 
-.work {
-  width: 100%;
+/* about me page */
+
+.description p {
+  text-shadow: white;
 }
 
 
-.profile-img {
-  height: 340px;
-  padding-top: 1em;
+
+form input {
+  font-size: 2em;
 }
 
-.description {
-text-shadow: 2px 2px 5px black;
-color: white;
-  font-size: 20px;
-  padding: 1em;
+.contact {
+  padding-top: 20em;
 }
+

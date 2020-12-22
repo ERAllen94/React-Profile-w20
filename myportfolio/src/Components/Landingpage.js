@@ -18,15 +18,15 @@ class Landing extends Component {
                         <hr/>
                         <p> Html/Css | Bootstrap | JavaScript | React | MongoDB</p>
                          <div className='social-links'>
-                             <a href='http://google.com' target='_blank'>
+                             <a href='https://github.com/ERAllen94' target='_blank'>
                              <i className='fa fa-github-square' aria-hidden='true'/>
                              </a>
 
-                             <a href='http://google.com' target='_blank'>
+                             <a href='https://www.facebook.com/evan.allen.984/' target='_blank'>
                              <i className='fa fa-facebook-square' aria-hidden='true'/>
                              </a>
 
-                             <a href='http://google.com' target='_blank'>
+                             <a href='https://www.instagram.com/evan.allen.984/' target='_blank'>
                              <i className="fa fa-instagram" aria-hidden="true"></i>
                              </a>
 
