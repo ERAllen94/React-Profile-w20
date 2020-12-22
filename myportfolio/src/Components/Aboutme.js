@@ -1,5 +1,5 @@
 import React from 'react';
-import me from "../images/trainer-1.jpg";
+import me from "../images/profile .jpg";
 import { Grid, Cell } from 'react-mdl'
 
 function Aboutme() {

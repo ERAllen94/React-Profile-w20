@@ -1,5 +1,5 @@
 import React from 'react';
-// import LinkResume from '';
+import LinkResume from '../Components/Evan-Allen-Resume.pdf';
 
 function Resume () {
         return(
@@ -18,7 +18,7 @@ function Resume () {
                   <li>Bootstrap</li>
                 </p>
                 <p>
-                  {/* click here for my resume <a href={ResumeLink} download="" target="_blank" rel="noopener noreferrer">resume</a>. */}
+                  click here for my resume <a href={LinkResume} download="file:///C:/Users/evana/OneDrive/Desktop/Evan-Allen-Resume.pdf" target="_blank" rel="noopener noreferrer">resume</a>.
                </p>
               </div>
             </article>

@@ -88,12 +88,9 @@ form input {
 
 /* projects page */
 
-.budget-master a {
-  grid-column: span 3;
-    grid-row: span 4;
-  background-image : url(../src/images/budget-master.png);
+.work {
+  width: 100%;
 }
-
 
 
 .profile-img {
