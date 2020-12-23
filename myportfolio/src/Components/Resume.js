@@ -9,16 +9,14 @@ function Resume () {
                 <h2>Resume</h2>
               </div>
               <div className="content-body">
-                <p>
                   <h3>Front-End Skills</h3>
                   <li>HTML</li>
                   <li>CSS</li>
                   <li>Javascript</li>
                   <li>jQuery</li>
                   <li>Bootstrap</li>
-                </p>
                 <p>
-                  click here for my resume <a href={LinkResume} download="file:///C:/Users/evana/OneDrive/Desktop/Evan-Allen-Resume.pdf" target="_blank" rel="noopener noreferrer">resume</a>.
+                  click here for my resume <a href={LinkResume} download="file:///C:/Users/evana/OneDrive/Desktop/Evan-Allen-Resume.pdf" target="_blank" rel="noopener noreferrer">download</a>.
                </p>
               </div>
             </article>

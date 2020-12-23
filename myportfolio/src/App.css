@@ -70,16 +70,24 @@ background: linear-gradient(to top, #f4791f, #659999);
   height: 100%;
 }
 
-/* about me page */
-
-.description p {
-  text-shadow: white;
+.project i {
+  color: white;
+  font-size: 5em;
 }
 
 
+/* about me page */
+.description  {
+  color: white
+}
 
-form input {
+.content-body  {
+  text-align: center;
+}
+
+.contactme {
   font-size: 2em;
+
 }
 
 .contact {

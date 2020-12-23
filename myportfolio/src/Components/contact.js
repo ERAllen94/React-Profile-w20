@@ -34,16 +34,21 @@ function Contact() {
             <section className= 'landing-grid'>
                 <form className='contact' onSubmit={handleSubmit}>
                     <h1>Contact me</h1>
+                    
                     <div>
                     <label htmlFor='name'>Name</label>
                     <input type='text' name='name' defaultValue={name} onBlur={handleChange}></input>
                     </div>
+                    <br></br>
+                    
                     <div>
-                    <label htmlfor='email'>Email-address</label>
+                    <label htmlFor='email'>Email-address</label>
                     <input type='text' name='email' defaultValue={email} onBlur={handleChange}></input>                  
                       </div>
+                      <br></br>
+                    
                     <div>
-                    <label htmlfor='message'>Message Here</label>
+                    <label htmlFor='message'>Message Here</label>
                     <textarea name='message' rows='5'defaultValue={message} onBlur={handleChange}></textarea>                      
                      </div>
                      {errorMessage && (
